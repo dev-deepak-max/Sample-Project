@@ -1,0 +1,36 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fa;
+  font-family: Arial, sans-serif;
+}
+
+.container h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.container p {
+  color: #555;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  gap: 25px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #3366cc;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.links a:hover {
+  color: #1a49a0;
+}
